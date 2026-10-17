@@ -1,3 +1,13 @@
+## SBOM-driven software component analysis
+
+This is a development fork of [OWASP Dependency-Track](https://github.com/DependencyTrack/dependency-track), a platform for analyzing software components through software bills of materials. Upstream helps teams keep a project-level inventory of dependencies and assess supply-chain risk, making it useful for defensive software governance and remediation workflows.
+
+**Contribution to review:** [PR #7704](https://github.com/DependencyTrack/dependency-track/pull/7704) proposes exposing whether a project version is the latest in notification subjects. The change focuses on making project-version context available to notification consumers and remains an upstream proposal.
+
+Follow the [official quickstart](https://dependencytrack.github.io/docs/next/tutorials/quickstart/) for a local instance and the [documentation](https://dependencytrack.github.io/docs/) for the appropriate version. This fork follows `main`; the original README below explains version branches and migration. Its [branch comparison](https://github.com/DependencyTrack/dependency-track/compare/main...jdotc1:main) is available for source review.
+
+---
+
 <div align="center">
 
 # OWASP Dependency-Track
